@@ -1,0 +1,33 @@
+{
+  "name": "basic-auth",
+  "version": "1.0.0",
+  "description": "Today, we begin the first of a 3-Phase build of an authentication system, written in Express.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node index.js",
+    "watch": "nodemon index.js",
+    "test-watch": "jest --watchAll",
+    "test": "jest --verbose --coverageå"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nacerillo/basic-auth.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nacerillo/basic-auth/issues"
+  },
+  "homepage": "https://github.com/nacerillo/basic-auth#readme",
+  "dependencies": {
+    "base-64": "^1.0.0",
+    "bcrypt": "^5.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jest": "^26.6.3",
+    "mongoose": "^5.10.15",
+    "supergoose": "^0.2.6",
+    "supertest": "^6.1.3"
+  }
+}
