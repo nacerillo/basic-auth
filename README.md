@@ -8,7 +8,7 @@ Today, we begin the first of a 3-Phase build of an authentication system, writte
 ### Links and Resources
 
 - [ci/cd](https://github.com/nacerillo/basic-auth/actions)
-- [GitHun](https://github.com/nacerillo/basic-auth)
+- [GitHub](https://github.com/nacerillo/basic-auth)
 ### Setup
 
 #### `.env` requirements
